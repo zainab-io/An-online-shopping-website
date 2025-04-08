@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NOORAN | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+    <div class="header"></div>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="img/logo.jpg" width="90px" >
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><b>Home</b></a></li>
+              
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Login Form Section -->
+        <div class="login-section" id="login">
+            <div class="container">
+                <h1>Login</h1>
+                <form action="login_process.php" method="POST" class="form-hover">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Username</span>
+                            <input type="text" name="username" placeholder="Enter your username" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Password</span>
+                            <input type="password" name="password" placeholder="Enter your password" required>
+                        </div>
+                    </div>
+                    <div class="submit-button">
+                        <input type="submit" value="Login">
+                    </div>
+                </form>
+                <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+            </div>
+        </div>
+
+        <!-- Account Management Section (Visible after login) -->
+        <div class="account-management" id="account">
+            <div class="container">
+                <h1>Welcome, [Username]</h1>
+                <h2>Your Account Details:</h2>
+                <div class="account-details">
+                    <p><strong>Username:</strong> [Username]</p>
+                    <p><strong>Email:</strong> [Email]</p>
+                    <p><strong>Phone Number:</strong> [Phone]</p>
+                    <p><strong>Address:</strong> [Address]</p>
+                </div>
+                <h2>Your Order History:</h2>
+                <div class="order-history">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Order ID</th>
+                                <th>Product</th>
+                                <th>Price</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>001</td>
+                                <td>Asymmetric Short-Sleeved Jacket</td>
+                                <td>$300.00</td>
+                                <td>Delivered</td>
+                            </tr>
+                            <tr>
+                                <td>002</td>
+                                <td>Mid-Length Asymmetric Dress</td>
+                                <td>$500.00</td>
+                                <td>Shipped</td>
+                            </tr>
+                            <!-- Add more orders dynamically based on the user's history -->
+                        </tbody>
+                    </table>
+                </div>
+                <a href="edit_account.html" class="btn">Edit Account</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rest of your website content goes here -->
+
+    <footer>
+        <div class="social">
+            <ul>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

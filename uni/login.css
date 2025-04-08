@@ -1,0 +1,216 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(34, 42, 46);
+    color: #fff;
+}
+
+/* Header Styling */
+.header {
+    background-color: rgb(34, 42, 46);
+    height: 60px;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34, 42, 46);
+    padding: 15px;
+}
+
+.navbar .logo img {
+    width: 90px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover {
+    color: crimson;
+}
+
+/* Login Section */
+.login-section {
+    background-color: #2d3436;
+    padding: 50px 0;
+
+}
+.form-hover:hover{
+    transform: translateY(-10px);
+}
+
+.login-section .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #1c2226;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-section h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.user-details .input-box {
+    margin-bottom: 20px;
+}
+
+.input-box span {
+    font-size: 16px;
+    color: #aaa;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+}
+
+.input-box input:focus {
+    outline: none;
+    border-color: crimson;
+}
+
+.submit-button input {
+    width: 100%;
+    padding: 10px;
+    background-color: crimson;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button input:hover {
+    background-color: #e68900;
+}
+
+.login-section p {
+    text-align: center;
+    color: #fff;
+}
+
+/* Account Management Section */
+.account-management {
+    padding: 50px 0;
+    background-color: #1c2226;
+}
+
+.account-management .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #2d3436;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.account-management h1,
+.account-management h2 {
+    color: #fff;
+}
+
+.account-details p {
+    color: #ccc;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.order-history table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.order-history table th,
+.order-history table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+.order-history table th {
+    color: crimson;
+}
+
+.order-history table td {
+    color: #fff;
+}
+
+.account-management .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: crimson;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.account-management .btn:hover {
+    background-color: #e68900;
+}
+
+/* Footer Styling */
+footer {
+    background-color: rgb(34, 42, 46);
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .social ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .social ul li a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+footer .social ul li a:hover {
+    color:crimson;
+}
+
+.success{
+    color: #00e677;
+}
+.error{
+    color: rgb(220, 20, 20);
+}
+
+
+
